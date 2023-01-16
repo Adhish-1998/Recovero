@@ -41,8 +41,8 @@ const AddMember = () =>
   {
     e.preventDefault();
 
-    const url = `http://localhost:5000/user/register`
-    // const url = "https://admin-dashboard-backend-production.up.railway.app/products";
+    //const url = `http://localhost:5000/user/register`
+    const url = "https://admin-dashboard-backend-production.up.railway.app/products";
     const config = {
       method: "POST",
       data: JSON.stringify( adminData, role ),

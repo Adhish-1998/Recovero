@@ -76,8 +76,8 @@ const UpdateSingleProduct = () =>
     formData.append( "category", select )
     formData.append( "productImage", productImage.productImage )
 
-    const url = `http://localhost:5000/products/${ productId }`;
-    // const url = `https://admin-dashboard-backend-production.up.railway.app/products/${ productId }`;
+    //const url = `http://localhost:5000/products/${ productId }`;
+    const url = `https://admin-dashboard-backend-production.up.railway.app/products/${ productId }`;
     const config = {
       method: "PUT",
       data: formData,

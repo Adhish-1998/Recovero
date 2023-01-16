@@ -45,8 +45,8 @@ const AdminDashboard = () =>
     try
     {
 
-      const url = `http://localhost:5000/user/${ userId }`
-      // const url = "https://admin-dashboard-backend-production.up.railway.app/products";
+      //const url = `http://localhost:5000/user/${ userId }`
+       const url = "https://admin-dashboard-backend-production.up.railway.app/products";
       const { data } = await axios.get( url );
       if ( data.status == true )
       {

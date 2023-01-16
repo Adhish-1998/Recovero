@@ -28,8 +28,8 @@ const Login = () =>
     e.preventDefault();
     try
     {
-      const url = "http://localhost:5000/user/login"
-      // const url = 'https://admin-dashboard-backend-production.up.railway.app/adminLogin';
+     // const url = "http://localhost:5000/user/login"
+       const url = 'https://admin-dashboard-backend-production.up.railway.app/adminLogin';
       const config = {
         method: "POST",
         data: JSON.stringify( { email, password } ),
