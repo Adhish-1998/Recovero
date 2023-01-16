@@ -22,7 +22,7 @@ function App ()
         <Route path="/signup" element={ <Signup /> } />
         <Route path="/adminDashboard" element={ <AdminDashboard /> } />
         <Route path="/addmember" element={ <AddMember /> } />
-        {<Route path="/product/:id" element={ <ShowSingleProduct /> } />}
+        {/*<Route path="/product/:id" element={ <ShowSingleProduct /> } />*/}
         {/* <Route path="/updateProduct/:id" element={ <UpdateSingleProduct /> } /> */ }
         <Route path="/userDashboard" element={ <UserDashboard /> } />
       </Routes>
